@@ -1,0 +1,1000 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+font-family: 'Poppins', sans-serif !important;
+}
+.ColorBack{
+    background-image:url("../../../public/assets/images/logos/Bg.png") !important;
+    background-repeat: repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.Container{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+    background-color: white center;
+    height: 100vh;
+    background-size: cover;
+}
+.left{
+    background: rgb(242, 140, 14);
+}
+
+.Hea{
+    width: 100%;
+    height: 100vh;
+}
+.LogoMoby{
+    margin-bottom: -100px !important;
+    text-align: center;
+}
+
+.LogoMoby img{
+    width: 130px;
+    height: 150px;
+}
+.btn-flotante {
+    font-size: 16px;
+    /* Cambiar el tamaño de la tipografia */
+    text-transform: uppercase;
+  
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    /* Texto en mayusculas */
+    font-weight: bold;
+    /* Fuente en negrita o bold */
+    color: #ffffff;
+    /* Color del texto */
+    border-radius: 5px;
+    /* Borde del boton */
+    letter-spacing: 2px;
+    /* Espacio entre letras */
+    /* Relleno del boton */
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+    display:inline-flex;   
+}
+
+.btn-flotante {
+    margin-left: 13% !important;
+    margin-bottom: 0%!important;
+}
+
+.Btnlogin Button{
+    background:0 !important;
+    border: 1px solid rgb(251, 251, 251) !important;
+    border-radius: 15px !important;
+    width: 140px!important;
+    font-weight: bold !important;
+    margin-top: 40px;
+    height: 50px !important;
+    color: white;
+    letter-spacing: 0.10em;
+    word-spacing: 0.10em;
+    font-size: 12px;
+    right: 10px;
+    padding-left: 20px;
+}
+
+.LogoLoginLeft{
+    margin-top:20%;
+    margin-left: 35% !important;   
+}
+
+.BtnloginActive Button{
+    background:white !important;
+    border: 1px solid rgb(251, 251, 251) !important;
+    border-radius: 15px !important;
+    width: 140px!important;
+    font-weight: bold !important;
+    margin-top: 40px;
+    height: 50px !important;
+    color:rgb(242, 144, 23) !important;
+    letter-spacing: 0.10em;
+    word-spacing: 0.10em;
+    font-size: 12px;
+    right: 10px; 
+}
+
+.BtnSingin Button{
+    background:0 !important;
+    border: 1px solid rgb(251, 251, 251) !important;
+    border-radius: 15px !important;
+    width: 140px!important;
+    font-weight: bold !important;
+    margin-top: 40px;
+    height: 50px !important;
+    color: white;
+    letter-spacing: 0.10em;
+    word-spacing: 0.10em;
+    font-size: 12px;
+   left: 10px; 
+}
+.BtnSinginActive Button{
+    background:white !important;
+    border: 1px solid rgb(251, 251, 251) !important;
+    border-radius: 15px !important;
+    width: 140px!important;
+    font-weight: bold !important;
+    margin-top: 40px;
+    height: 50px !important;
+    color:rgb(242, 144, 23) !important;
+    letter-spacing: 0.10em;
+    word-spacing: 0.10em;
+    font-size: 12px;
+    left: 10px;
+}
+.WelcomeInicio{
+    color:rgb(242, 140, 14)  !important;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 110px;
+}
+
+.SubTextWelcome{
+    font-size: 12px !important;
+    text-align: center !important;
+    margin-bottom: 30px !important;
+    color: gray;
+    padding-top: 10px;  
+    }
+
+    .subTexto{
+    font-size: 12px !important;
+    margin-bottom: 3px !important;
+    color: gray;
+    padding-top: 10px; 
+    }
+
+    .BtnRegister Button{
+        background:rgb(255, 255, 255) !important;
+        border: 2px solid rgb(242, 144, 23) !important;
+        border-radius: 30px !important;
+        width: 100% !important;
+        color: rgb(242, 144, 23) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px;
+        height: 45px !important;
+    }
+    .BtnRegister Button:hover{
+        background:rgb(242, 144, 23)  !important;
+        border: 2px solid rgb(242, 144, 23) !important;
+        border-radius: 30px !important;
+        color: rgb(255, 255, 255) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+        height: 45px !important;
+        transition: all !important;
+    }
+    .BtnRegister{
+        text-align: center;
+    }
+
+    .linkHelp{
+        margin-top: -5px !important;
+        font-size: 12px;
+        color: gray;
+        display: inline-flex;
+        align-items: center;
+        align-content: center;
+    }
+    .CentrarTodo{
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+    }
+    
+    .linkHelp1 {
+        text-align: center !important;
+        margin-left: 5px;
+        color:rgb(242, 144, 23) !important;
+        text-decoration: none !important;
+        font-weight: 800;
+        
+    }
+    /* .linkHelp   .Link {
+        text-decoration: none !important;
+    } */
+
+    .input{
+        border-radius: 15px;
+        height: 50px;
+        width: 100%;
+        border-width: 0px;
+        background-color:rgb(226, 228, 229);
+        background-color:rgb(238, 241, 243);
+        color: #666666;
+        font-size: 12px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        padding-left: 10px;
+        cursor: "pointer",
+    }
+
+    input::-moz-focus-outer{
+       border-color: yellow;
+    }
+
+    input::placeholder{
+        padding-left: 20px;
+    }
+    .Registro {
+        color: rgb(242, 140, 14) !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        font-size: 15px;
+        margin-bottom: 5px !important;
+    }
+    
+    .SubTextRegister{
+        font-size: 12px !important;
+        text-align: center !important;
+        margin-bottom: 40px !important;
+        
+        
+        }
+    
+    .subTitleRegister{
+        display: flex;
+        align-items: center;
+    }
+    
+    .BtnCedula button {
+        margin-top: 15px;
+        text-align: center !important;
+        background: rgb(225, 225, 225) !important;
+        border-radius: 30px !important;
+        width: 100% !important;
+        color: rgb(251, 250, 248) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px;
+        height: 45px !important;
+    }
+    
+    .BtnCedulaActive button {
+        margin-top: 15px;
+        text-align: center !important;
+        background: rgb(242, 144, 23) !important;
+        border-radius: 30px !important;
+        width: 100% !important;
+        color: rgb(251, 250, 248) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px;
+        height: 45px !important;
+    }
+    
+    .BtnCedula Button:hover {
+        background: rgb(202, 201, 198) !important;
+        border-radius: 30px !important;
+        width: 100px !important;
+        color: rgb(255, 255, 255) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+        height: 45px !important;
+        transition: all !important;
+    }
+    
+    .BtnConfirmaDatos button {
+        text-align: center !important;
+        background: rgb(197, 191, 191) !important;
+        border-radius: 30px !important;
+        width: 100% !important;
+        color: rgb(251, 250, 248) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px;
+        height: 45px !important;
+    }
+    
+    .BtnConfirmaDatos button:hover {
+        text-align: center !important;
+        background: rgb(242, 144, 23) !important;
+        border-radius: 30px !important;
+        width: 100% !important;
+        color: rgb(251, 250, 248) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px;
+        height: 45px !important;
+    }
+    
+    .BtnConfirmaDatos Button {
+        background: rgb(141, 140, 138) !important;
+        border-radius: 30px !important;
+        width: 100px !important;
+        color: rgb(255, 255, 255) !important;
+        font-weight: bold !important;
+        margin-bottom: 10px !important;
+        width: 100% !important;
+        height: 45px !important;
+        transition: all !important;
+    }
+    
+    .logoregistro {
+        width: 60px !important;
+        height: 50px !important;
+    
+    }
+    
+    .logoregistro img {
+        float: left !important;
+    
+    }
+    
+    .imgRegistro img {
+        height: 100% !important;
+        width: 100%;
+    }
+    
+    .aja {
+        display: flex;
+        align-items: center;
+    }
+    
+    .circulo {
+        height: 40px;
+        width: 40px;
+        border: 2px solid white;
+        background: rgba(255, 255, 255, 0);
+        text-align: center;
+        align-content: center;
+        border-radius: 50%;
+        justify-content: center;
+        position: relative;
+    
+    }
+    
+    .hijo {
+        position: absolute;
+        top: 9px;
+        left: 15px
+    }
+    
+    .circulo2 {
+        height: 40px;
+        width: 40px;
+        border: 2px solid #ececec6a;
+        background: rgba(255, 255, 255, 0);
+        align-items: center;
+        align-content: center;
+        border-radius: 50%;
+        position: relative;
+    
+    }
+    
+    .circulo3 {
+        height: 40px;
+        width: 40px;
+        border: 2px solid #ececec6a;
+        background: rgba(255, 255, 255, 0);
+        align-items: center;
+        align-content: center;
+        border-radius: 50%;
+        position: relative;
+    
+    }
+    
+    .circulo div {
+        font-size: 15px;
+        color: white;
+    
+    }
+    
+    .circulo2 div {
+        font-size: 15px;
+        color: #ececec6a;
+    
+    }
+    
+    .circulo3 div {
+        font-size: 15px;
+        color: #ececec6a;
+    
+    }
+    
+    .circulo2Active {
+        position: relative;
+    
+        height: 40px;
+        width: 40px;
+        border: 2px solid white;
+        background: rgba(255, 255, 255, 0);
+        align-items: center;
+        align-content: center;
+        border-radius: 50%;
+    }
+    
+    .circulo3Active {
+        position: relative;
+    
+        height: 40px;
+        width: 40px;
+        border: 2px solid white;
+        background: rgba(255, 255, 255, 0);
+        align-items: center;
+        align-content: center;
+        border-radius: 50%;
+    }
+    
+    .circulo2Active div {
+        font-size: 15px;
+        color: white;
+    
+    }
+    
+    .circulo3Active div {
+        font-size: 15px;
+        color: white;
+    
+    }
+    
+    .paso {
+        color: white !important;
+        margin-bottom: 50px !important;
+        font-size: 45px ;
+        font-weight: 600;
+    }
+    
+    #subpaso {
+        margin-bottom: 40px !important;
+        margin-top: 20px !important;
+        color: white !important;
+    }
+    
+    .Puntos1 div {
+        height: 5px !important;
+        width: 5px !important;
+        border-radius: 50% !important;
+        background: #ececec6a !important;
+        margin: 18px !important;
+        padding: 5 !important;
+        margin-bottom: 5px !important;
+        margin-top: 10px !important;
+    }
+    
+    .Puntos1Active div {
+        height: 5px !important;
+        width: 5px !important;
+        border-radius: 50% !important;
+        background: rgb(255, 255, 255) !important;
+        margin: 18px !important;
+        padding: 5 !important;
+        margin-bottom: 5px !important;
+        margin-top: 10px !important;
+    
+    }
+    
+    .Puntos2 div {
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background: #ececec6a;
+        margin: 18px;
+        padding: 5;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    
+    .Puntos2Active div {
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+        background: rgb(255, 255, 255);
+        margin: 18px;
+        padding: 5;
+        margin-bottom: 5px;
+        margin-top: 10px;
+    }
+    
+    .Card {
+        margin-top: -150px;
+    }
+    
+    .name {
+        padding: 7px;
+        font-size: 15px;
+        color: #ececec6a;
+    }
+    
+    .nameActive {
+        padding: 7px;
+        font-size: 15px;
+        color: white;
+    }
+    
+    .hover:hover {
+        cursor: pointer;
+    }
+    
+    .PAss {
+        background: black;
+    }
+
+
+
+    #inci{
+        display: flex;
+        
+       
+    }
+
+
+
+    .Validate1,
+    .Validate2,
+    .Validate3,
+    .Validate4 {
+        width: 50px;
+        height: 4px;
+        background: gray;
+        margin: 2px;
+        margin-bottom: 25px;
+        
+        }
+    
+    .Validate1Active {
+        width: 50px;
+        height: 4px;
+        background: rgb(234, 75, 75);
+        border-radius: 10px;
+        margin: 2px;
+        margin-bottom: 20px;
+    }
+    
+    .Validate2Active {
+        width: 50px;
+        height: 4px;
+        background: rgb(236, 119, 69);
+        border-radius: 10px;
+        margin: 2px;
+        margin-bottom: 20px;
+    }
+    
+    .Validate3Active {
+        width: 50px;
+        height: 4px;
+        background: rgb(238, 187, 87);
+        border-radius: 10px;
+        margin: 2px;
+        margin-bottom: 20px;
+       
+    }
+    
+    .Validate4Active {
+        width: 50px;
+        height: 4px;
+        background: rgb(54, 197, 116);
+        border-radius: 10px;
+        margin: 2px;
+        margin-bottom: 20px;
+    }
+    
+    .Color {
+        color: black;
+        background: red;
+    }
+    
+    .cardRegister {
+        padding-top: 150px;
+        margin-left: 100px;
+    
+    }
+    
+    .Icono {
+        margin-top: 100px !important;
+    }
+    .icon{
+        display: flex;
+    }
+    
+
+    .subTituloLogin {
+        font-size: 25px;
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 80px;
+        letter-spacing: 0.03em;
+        word-spacing: 0.03em;
+    
+    
+    }
+    
+    .subTituloLogin2 {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        letter-spacing: 0.03em;
+        word-spacing: 0.03em;
+        margin-top: 20px;
+
+    }
+    
+    .Form_cedula{
+        max-width: 350px;
+        margin: auto;
+        width: 100%;
+        margin-top: 20%;
+     
+    }
+    .IconMobility .ImgIco img{
+        width: 80px;
+    }
+    .IconMobility .brandi img{
+        width: 250px;
+        margin-left: -25%;
+        margin-top: 20%;
+
+    }
+    
+    .Ic{
+        display: inline-flex;
+        align-items: center;
+        align-content: center;
+        margin-top: -30px;
+    }
+    .fondo .btn-flotante {
+        margin: auto !important;
+    }
+    
+    .P {
+        color: rgb(118, 115, 115);
+        font-size: 10px;
+        font-weight: bolder !important;
+        margin-left: 10px;
+        margin-top: 5px;
+        margin-bottom: 2px !important;
+    }
+    .Mobilityy {
+        color: rgb(4, 4, 4);
+        font-size: 12px;
+        font-weight: bold !important;
+        margin-left: 12px;
+    
+    }
+    
+    .pp {
+        color: gray;
+        font-size: 10px;
+        font-weight: bold !important;
+        margin-bottom: 10px;
+        margin-top: -10px;
+    }
+    
+    .SelectCedula select {
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        background: rgba(255, 255, 255, 0);
+        border: 1px solid white;
+    }
+ 
+    .informarAqui {
+        color: rgb(231, 139, 35) !important;
+        font-weight: bolder;
+        text-decoration: none !important;
+        font-size: 11px;
+        letter-spacing: 0em;
+        word-spacing: 0em;
+        margin-bottom: 15px;
+        margin-left: 5px;
+       
+    }
+    .inf{
+        display: flex;
+        margin-top: 1px !important;
+
+    }
+    
+    .Informar {
+        font-size: 11px;
+        color: gray;
+        font-weight: 200;
+        margin-bottom: 10px;
+    }
+
+    .back1{
+        margin-bottom: 30px;
+        margin-top: -50px;
+        color:rgb(242, 140, 14)  !important;
+        font-size: 12px;
+        font-weight: bold;
+        color: rgba(225, 213, 213, 0.988);
+        cursor: pointer;
+      
+    }
+    
+    .back Button{
+        margin-bottom: 30px;
+        margin-top: -50px;
+        color:rgb(242, 140, 14)  !important;
+        font-size: 12px;
+        font-weight: bold;
+        color: rgba(225, 213, 213, 0.988);
+        cursor: pointer;
+    }
+    .svgg svg{
+        fill:rgb(242, 140, 14)  !important;}
+    
+        .tituloLogin{
+            color:rgb(231, 139, 35) !important;
+            margin-right: auto;
+            margin-bottom: 20px;
+            font-size: 35px;
+            font-weight: bold;
+           
+
+        }
+        .loginP{
+            font-size: 12px;
+            color:gray;
+            font-weight: 100;
+            margin-top: 5px;
+            align-content: center !important;
+        
+        }
+        .btnLogout{
+            background:rgb(242, 144, 23)  !important;
+            border: 2px solid rgb(242, 144, 23) !important;
+            border-radius: 30px !important;
+            color: rgb(255, 255, 255) !important;
+            font-weight: bold !important;
+            margin-bottom: 10px !important;
+            width:100% !important;
+            height: 45px !important;
+            transition: all !important;
+            letter-spacing: 0em;
+            word-spacing: 0em;
+        }
+        .Forgot{
+            color:rgb(231, 139, 35) !important;
+            font-weight: bold;
+            text-decoration: none !important;
+            font-size: 10px;
+            letter-spacing: 0em;
+            word-spacing: 0em;
+            margin-top: 5px;
+        }
+
+        .Recuerdame{
+            color: gray; 
+            display: flex;
+            font-size: 12px !important;
+            font-weight: 700;          
+            margin-bottom: 20px;
+        }
+
+        .Olvidastecon button{
+            font-size: 10px;
+            font-weight: bold;
+            color: rgb(231, 139, 35);
+            margin-bottom: 20px;
+            margin-top: 5px;
+            margin-left: 60px;    
+        }
+         .olvidast{
+            display: flex;
+
+         }
+        .crearCuenta{
+            color:rgb(231, 139, 35) !important;
+            font-weight: bolder;
+            text-decoration: none !important;
+            font-size: 10px;
+            letter-spacing: 0em;
+            word-spacing: 0em;
+        }
+
+        .Crear{
+            align-items: center;
+            display:flex;
+        }
+        .inputForgot{
+            weight:70% !important;
+            margin-bottom: 10px !important;
+            background-color:rgb(246, 247, 248);
+            color: black;
+            height: 20px !important;
+            border: rgb(246, 247, 248);
+            text-align: justify;
+            clip: auto;
+
+        }
+
+        .enviarCorreo{
+            background-color:rgb(225, 225, 225) !important;
+
+        }
+        .a{
+            font-size: 10px;
+            color:gray;
+            font-weight: 300;
+            margin-top:3px;
+            margin-right:10px;
+        }
+        .OR{
+            color:rgb(170, 163, 163);
+            margin-bottom:30px;
+            margin-top:30px;
+            font-size: 15px;
+            width: 100%;
+        
+        }
+        .divider{
+            width: 80px;
+            height: 30px;
+            border-bottom: solid red;
+            background: linear-gradient(180deg,rgb(2, 2, 2), rgba(9, 9, 9, 0.799));
+            border-width: 0.10px;
+            
+        }
+        .dividerOr{
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+        }
+         .google img{
+            width: 20px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            margin-top: 4px;
+            text-align: center;
+         }
+         .facebook img{
+            width: 25px;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3px;
+         }
+         .apple img{
+            width: 25px;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+         }
+        .icon{
+            align-items: center;
+            justify-content: center;
+        }
+         .google,
+         .facebook,
+         .apple {
+            width: 60px;
+            height: 40px;
+            background: rgba(241, 244, 247);
+            margin: 5px;
+            border-radius: 5px;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+         }
+        
+         .forgotPassword h2{
+            color:rgb(231, 139, 35) !important;
+            font-size: 25px;
+            font-weight: bold;
+            text-align: center;
+            margin-top: -150px;
+         }
+         .forgotPassword2 h2{
+            font-size: 12px;
+            color:gray;
+            font-weight: 100;
+            margin-bottom: 30px;
+            margin-top: -10px;
+            text-align: justify;
+         }
+         .BtnForgot button{
+            text-align: center !important;
+            background:rgb(197, 191, 191) !important;
+            border-radius: 30px !important;
+            width: 80% !important;
+            color: rgb(251, 250, 248) !important;
+            font-weight: bold !important;
+            margin-bottom: 10px;
+            height: 50px !important;
+            margin-top: 10px;
+        }
+        .Letras{
+        width: 80%;
+           margin-left: auto;
+           margin-top: 40px;
+        }
+        
+        .BtnForgot button:hover{
+            text-align: center !important;
+            background:rgb(242, 144, 23) !important;
+            border-radius: 30px !important;
+            width: 80% !important;
+            color: rgb(251, 250, 248) !important;
+            font-weight: bold !important;
+            margin-bottom: 10px;
+            height: 50px !important;
+            margin-top: 10px;
+            color: rgb(191, 187, 187)
+        }
+        
+      
+        .home_Login{
+            margin-top: -10%;
+            padding-bottom: 20%;
+
+        }
+
+        .inputForgot{
+            border-radius: 30px !important;
+            width: 80% !important;
+            margin-bottom: 60px;
+            height: 50px !important;
+            margin-top: 10px;
+        }
+        .izquier{
+            width: 45%;
+             float:left;
+             height: 100vh;
+        }
+        .derecho{
+            width: 55%; 
+            background: rgb(245, 245, 245);
+
+            float:right;
+            height: 100vh;
+        }
+        @media only screen and (max-width: 600px) {
+            .izquier{
+                width: 0px;
+                 height: 0;
+            }
+                .derecho{
+                    width: 100%; 
+                    background: rgb(245, 245, 245);
+                    height: 100vh;
+                }
+                .Hea{
+                    width: 100%;
+                    height: 100vh;
+                }
+            
+          }   
+          @media only screen and (max-width: 400px) {
+            .izquier{
+                width: 0px;
+                 height: 0;
+            }
+                .derecho{
+                    width: 100%; 
+                    background: rgb(245, 245, 245);
+                    height: 100vh;
+                }
+                .Hea{
+                    width: 100%;
+                    height: 100vh;
+                }
+            
+          } 
+          @media only screen and (max-width: 300px) {
+            .izquier{
+                width: 0px;
+                 height: 0;
+            }
+                .derecho{
+                    width: 100%; 
+                    background: rgb(245, 245, 245);
+                    height: 100vh;
+                }
+                .Hea{
+                    width: 100%;
+                    height: 100vh;
+                }
+            
+          }   
+ 

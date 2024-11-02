@@ -1,0 +1,556 @@
+@import "../../themes/generated/variables.base.scss";
+
+.login-form {
+
+  .link {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+   
+
+    .a {
+      text-decoration: none;
+    }
+  }
+
+  .form-text {
+    margin: 10px 0;
+    color: rgba($base-text-color, alpha($base-text-color) * 0.7);
+    
+  }
+}
+
+
+
+
+// .DivIzquierdo{
+// width: 45%;
+// float: left;
+// height: 100vh;
+// background-image: url('../../../public/imageness/Bg.png');
+// background-size: cover;
+// background-repeat: no-repeat;
+// }
+// .DivDerecho{
+// width: 55%;
+// float: right;
+
+// background: white;
+
+// }
+
+// .single-card-Login {
+//       border: 0px;
+// padding-top: 100px;
+//   .dx-card2 {
+//     width: 60%;
+//     margin: auto auto;
+//     padding: 40px;
+//     flex-grow: 0;
+//     .screen-x-small1 & {
+//       width: 100%;
+//       height: 100%;
+//       border-radius: 0;
+//       box-shadow: none;
+//       margin: 0;
+//       border: 0;
+//       flex-grow: 1;
+//     }
+
+//     .header {
+//       margin-bottom: 30px;
+
+//       .tituloLogin{
+//         color:rgb(231, 139, 35) !important;
+//         margin-right: auto;
+//         margin-bottom: 20px;
+//         font-size: 35px;
+//         font-weight: bold;
+       
+//     }
+//     .loginP{
+//       font-size: 12px;
+//       color:gray;
+//       font-weight: 100;
+//       margin-top: 5px;
+//       align-content: center !important;
+  
+//   }
+
+//       .description {
+//         color: rgba($base-text-color, alpha($base-text-color) * 0.7);
+//         line-height: 18px;
+//       }
+//     }
+//   }
+// }
+  
+//     .IconMobility .ImgIco img {
+//       width: 80px;
+//     }
+  
+//     .IconMobility .brandi img {
+//       width: 250px;
+//       margin-left: -25%;
+//       margin-top: 20%;
+  
+//     }
+  
+//     .Ic {
+//       display: inline-flex;
+//       align-items: center;
+//       align-content: center;
+//       margin-top: -30px;
+//     }
+
+
+//     .subTituloLogin {
+//       font-size: 25px;
+//       color: white;
+//       text-align: center;
+//       font-weight: bold;
+//       margin-top: 80px;
+//       letter-spacing: 0.03em;
+//       word-spacing: 0.03em;
+  
+  
+//   }
+  
+//   .subTituloLogin2 {
+//       font-size: 12px;
+//       color: white;
+//       text-align: center;
+//       letter-spacing: 0.03em;
+//       word-spacing: 0.03em;
+//       margin-top: 20px;
+
+//   }
+
+//   .LogoLoginLeft{
+//     margin-top: 5%;
+//     margin-left: 35% !important;
+    
+// }
+
+// .btn-flotante {
+//   font-size: 16px;
+//   /* Cambiar el tamaño de la tipografia */
+//   text-transform: uppercase;
+
+//   align-items: center;
+//   justify-items: center;
+//   justify-content: center;
+//   /* Texto en mayusculas */
+//   font-weight: bold;
+//   /* Fuente en negrita o bold */
+//   color: #ffffff;
+//   /* Color del texto */
+//   border-radius: 5px;
+//   /* Borde del boton */
+//   letter-spacing: 2px;
+//   /* Espacio entre letras */
+//   /* Relleno del boton */
+//   position: absolute;
+//   text-align: center;
+//   bottom: 40px;
+//   display:inline-flex;
+  
+// }
+
+// .btn-flotante {
+//   margin-left: 13% !important;
+//   margin-bottom: 0%!important;
+// }
+
+// .BtnSingin button{
+//   background:0 !important;
+//   border: 1px solid rgb(251, 251, 251) !important;
+//   border-radius: 15px !important;
+//   width: 140px!important;
+//   font-weight: bold !important;
+//   margin-top: 40px;
+//   height: 50px !important;
+//   color: white;
+//   letter-spacing: 0.05em;
+//   word-spacing: 0.05em;
+//   font-size: 14px;
+//  left: 10px;
+
+// }
+
+// .BtnloginActive button{
+//   background:white !important;
+//   border: 1px solid rgb(251, 251, 251) !important;
+//   border-radius: 15px !important;
+//   width: 140px!important;
+//   font-weight: bold !important;
+//   margin-top: 40px;
+//   height: 50px !important;
+//   color:rgb(246, 139, 8) !important;
+//   letter-spacing: 0.01em;
+//   word-spacing: 0.01em;
+//   font-size: 14px;
+//   right: 10px;
+//   margin-left: -20px;
+  
+// }
+
+// .btnLogout{
+//   background:rgb(242, 144, 23)  !important;
+//   border: 2px solid rgb(242, 144, 23) !important;
+//   border-radius: 30px !important;
+//   color: rgb(255, 255, 255) !important;
+//   font-weight: bold !important;
+//   margin-bottom: 10px !important;
+//   width:100% !important;
+//   height: 45px !important;
+//   transition: all !important;
+//   letter-spacing: 0em;
+//   word-spacing: 0em;
+// }
+
+// .OR{
+//   color:rgb(170, 163, 163);
+//   margin-bottom:30px;
+//   margin-top:30px;
+//   font-size: 15px;
+//   width: 100%;
+//   margin-left: 35%;
+
+// }
+// .divider{
+//   width: 80px;
+//   height: 30px;
+//   border-bottom: solid red;
+//   background: linear-gradient(180deg,rgb(2, 2, 2), rgba(9, 9, 9, 0.799));
+//   border-width: 0.10px;
+  
+
+ 
+// }
+// .icon{
+//   display: flex;
+// }
+
+
+// .google img{
+//   width: 15px;
+//   margin: auto;
+//   align-items: center;
+//   justify-content: center;
+//   margin-top: 4px;
+//   text-align: center;
+// }
+// .facebook img{
+//   width: 20px;
+//   margin: auto;
+//   justify-content: center;
+//   align-items: center;
+//   margin-top: 3px;
+// }
+// .apple img{
+//   width: 20px;
+//   margin: auto;
+//   align-items: center;
+//   justify-content: center;
+// }
+// .icon{
+//   align-items: center;
+//   justify-content: center;
+// }
+// .google,
+// .facebook,
+// .apple {
+//   width: 50px;
+//   height: 30px;
+//   background: rgba(241, 244, 247);
+//   margin: 5px;
+//   border-radius: 5px;
+//   align-items: center;
+//   justify-content: center;
+//   padding: 5px;
+// }
+
+// .btnLogin{
+//   background-color: orange !important;
+//   width: 100px;
+
+// }
+
+// .inputLoginPassword{
+//   display: block !important;
+//   font-size: 12px !important;
+//   font-weight: 400 !important;
+//   color: #ffffff !important;
+//   line-height: 1.3 !important;
+//   padding: .4em 1.4em .3em .8em !important;
+//   width: 80% !important;
+//   height: 50px;
+//   max-width: 100% !important;
+//   margin: 20px auto !important;
+//   border: 1px solid rgb(248, 247, 247);
+//   box-shadow: 0 1px 0 1px rgba(0, 0, 0, .03) !important;
+//   border-radius: 10px !important;
+//   -moz-appearance: none !important;
+//   -webkit-appearance: none !important;
+//   appearance: none !important;
+//   background-color: rgb(202, 195, 195) !important;
+//   background-image: url('../../../public/imageness/Location.svg'),
+//   linear-gradient(to bottom, #f9f9f9 0%, #f7f7f7 100%) !important;
+//   background-repeat: no-repeat, repeat !important;
+//   background-position: right 50px top 50%, 0 0 !important;
+//   background-size: 20px auto, 100% !important;
+// }
+
+.containerLogin{
+  // background-color: aqua;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.containerLogin-left{
+  width: 40%;
+  background-image: linear-gradient(360deg, rgb(142,14,0), rgb(0, 0, 0, 0)) ,url('../../../public/imageness/Bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.logoLogin{
+  width: 100%;
+  height: 5%;
+  // background-color: aquamarine;
+  display: flex;
+  align-items: center;
+}
+
+.branding{
+  height: 60%;
+  width: 100%;
+  // background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoImg{
+  width: 20%;
+  height: 35%;
+  // background-color: red;
+  background-image: url('../../assets/images/logo.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.infoBranding{
+  width: 60%;
+  height: 20%;
+  // background-color: aqua;
+  margin-top: 10vh;
+  text-align: center;
+}
+
+.infoBranding > h5{
+  padding: 0;
+  margin: 0;
+  // font-weight: 700;
+  font-weight: 500;
+  color: white;
+}
+
+.textBranding{
+  width: 80%;
+  height: 20%;
+  // background-color: red;
+  text-align: center;
+  color: white;
+}
+
+.buttonsBrandingContainer{
+  width: 50%;
+  height: 8%;
+  // background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.4vh solid white;
+  border-radius: 2vh;
+}
+
+.buttonBranding{
+  width: 50%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  border-radius: 1vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttonBranding > p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.buttonActive {
+  color: #F29017 !important;
+  background-color: white !important;
+}
+
+.containerLogin-right{
+  width: 60%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 10% 16%;
+}
+
+.formLoginContainer{
+  width: 100%;
+  height: 100%;
+  // background-color: rgb(105, 15, 30);
+}
+
+.Logo{
+  width: 5%;
+  // background-color: blueviolet;
+  height: 100%;
+  background-image: url('../../assets/images/logo.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.BrandingImage{
+  width: 15%;
+  height: 40%;
+  margin-left: 1vh;
+  // background-color: darkorchid;
+  background-image: url('../../assets/images/Branding.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.formTitle{
+  color: #F29017;
+  font-weight: 500;
+}
+
+.formInfo{
+  color: #BDBDBD;
+  font-weight: bold;
+  font-size: 1.5vh;
+}
+
+.formInputs{
+  width: 100%;
+  height: 25%;
+  background-color: aqua;
+  margin-top: 6vh;
+}
+
+.formOptions{
+  width: 100%;
+  height: 8%;
+  background-color: rebeccapurple;
+}
+
+.formButtonContainer{
+  width: 100%;
+  height: 12%;
+  background-color: coral;
+}
+
+.registerLink{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5%;
+  font-size: 1.5vh;
+}
+
+.forgetPassword > a{
+  text-decoration: none;
+}
+
+.registerLink p > a{
+  margin-left: 1vh;
+  text-decoration: none;
+  font-weight: 500 !important;
+}
+
+.registerLink > p{
+  color: #5f5f5f;
+  font-weight: 500;
+}
+
+.formSignUp{
+  width: 100%;
+  height: 20%;
+  margin-top: 3vh;
+  // background-color: rgb(255, 152, 115);
+}
+
+.signUpTitle{
+  width: 100%;
+  height: 20%;
+  // background-color: #F29017;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signUpTitle > p{
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  color: rgb(197,197,197);
+  font-size: 1.7vh;
+}
+
+.signUpLine{
+  width: 35%;
+  height: 5%;
+  background: linear-gradient(to right, rgb(197,197,197), rgb(0,0,0,0));
+}
+
+.lineInversa {
+  background: linear-gradient(to right, rgb(0,0,0,0), rgb(197,197,197)) !important;
+}
+
+.signUpOptionsContainer{
+  width: 100%;
+  height: 70%;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.signUpOption{
+  width: 15%;
+  height: 85%;
+  background-color: #e9e9e9;
+  border-radius: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUpOption > img {
+  width: 40%;
+  height: 50%;
+}
+
+.link{
+  text-decoration: none;
+  font-weight: 500;
+}

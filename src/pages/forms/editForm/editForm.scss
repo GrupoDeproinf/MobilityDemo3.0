@@ -1,0 +1,21 @@
+.button-container{
+    display: inline-flex;
+    padding: 20px;
+    width: 100%;
+
+    .dx-button{
+      font-size: 14px;
+      font-weight: 600;
+      padding: 10px;
+      box-shadow: none;
+      border-radius: 9px;
+      opacity: 0.8;
+      height: auto;
+      opacity: 0.9;
+      border: none;
+    }
+    .dx-button.dx-state-hover{
+      box-shadow: none;
+      border: none !important;
+    }
+  }

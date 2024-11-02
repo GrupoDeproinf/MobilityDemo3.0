@@ -1,0 +1,91 @@
+@import "../../themes/generated/variables.base.scss";
+
+.user-info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-end;
+
+  .dx-toolbar-menu-section & {
+    padding: 10px 6px;
+    border-bottom: 1px solid rgba(107, 9, 9, 0.1);
+  }
+
+  .image-container {
+    overflow: hidden;
+    border-radius: 100%;
+    // height: 5.5vh;
+    width: 2vw;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+    // background-color: aqua;
+
+    .user-image {
+      width: 100%;
+      height: 0%;
+    }
+  }
+        .image-container img{
+          border-radius: 100%;
+          height: 100%;
+          width: 100%;
+          
+        }
+
+  .user-name {
+    font-size: 14px;
+    color: $base-text-color;
+    margin: 0 9px;
+  }
+
+  .dx-button{
+    // background-color: red !important;
+    width: 13%;
+
+    
+  }
+}
+
+.user-panel {
+  .dx-list-item .dx-icon {
+    vertical-align: middle;
+    color: $base-text-color;
+    margin-right: 16px;
+  }
+  .dx-rtl .dx-list-item .dx-icon {
+    margin-right: 0;
+    margin-left: 16px;
+  }
+
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.dx-context-menu.user-menu.dx-menu-base {
+  &.dx-rtl {
+    .dx-submenu .dx-menu-items-container .dx-icon {
+      margin-left: 10px;
+    }
+  }
+  .dx-submenu .dx-menu-items-container .dx-icon {
+    margin-right: 10px;
+  }
+  .dx-menu-item .dx-menu-item-content {
+      padding: 3px 15px 4px;
+  }
+}
+
+.dx-theme-generic .user-menu .dx-menu-item-content .dx-menu-item-text {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.iconosvg{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  
+}

@@ -1,0 +1,128 @@
+.side-nav-inner-toolbar {
+  width: 100%;
+}
+
+#navigation-header {
+  @import "../../themes/generated/variables.additional.scss";
+  background-color: rgb(182, 182, 182);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  .menu-button .dx-icon {
+    color: orange;
+  }
+
+  .screen-x-small & {
+    padding-left: 20px;
+  }
+
+  .dx-theme-generic & {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.iconos{
+  width: 100%;
+  height: 7vh;
+  // background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.4vh;
+}
+
+.rayaSepacionNav{
+  border-top: 0.15vh solid rgba(231, 231, 231, 0.356) !important;
+  width: 100%;
+ }
+
+ .iconoNavbar{
+  max-width: 10% !important;
+  flex: auto !important;
+  padding: 1.6vh;
+}
+
+.nombreIconoNavbar{
+  max-width: 35% !important;
+  flex: auto !important;
+ }
+ .imgFotoNavbar  {
+  
+   text-align: center;
+ }
+ .imgFotoNavbar img{
+  width: 5vw;
+  margin: 2vh 0 0 0;
+  border-radius: 100%;
+  background-size: contain;
+ }
+
+ .nombreUserNavbar{
+  color:rgb(230, 111, 0) !important;
+  font-weight: bold !important;
+  font-size: 1.7vh;
+}
+
+.infoUser{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vh 0;
+}
+
+.nombreRolNavbar div{
+  color: #C0C0C0 !important;
+  font-weight: 500;
+  font-size: 1.5vh;
+  margin-top: 0.2vh;
+  letter-spacing: 0.5px;
+}
+
+.InfPerfilNume{
+  width: 100%;
+  color:rgb(48, 46, 46) !important;
+  font-weight: bold;
+  font-size: 18px;
+  justify-content: center;
+}
+
+.InfPerfilNume div{
+  padding-right: 0 !important;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+
+.InfPerfil{
+  width: 220px;
+  color:rgb(173, 168, 168) !important;
+  font-weight: 20px;
+  padding: 10px;
+  font-size: 11px !important;
+  margin-bottom: 20px;
+}
+
+.InfPerfil div{
+  padding-left: 0 !important;
+}
+
+.menu-container .dx-swatch-additional .dx-treeview-item{
+  padding: 10px 8px;
+  min-height: 44px;
+}
+
+.iconoMenuClose {
+  max-width: 20%;
+    text-align: center;
+    margin-left: 7px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.iconoMenuClose img{
+  max-width: 100% !important;  
+}
+.iconoMenuClose button{
+border: 0px;
+background: white;
+}

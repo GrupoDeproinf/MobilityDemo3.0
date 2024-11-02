@@ -1,0 +1,255 @@
+// .form-avatar {
+//   float: left;
+//   width: 5vw;
+//   height: 10vh;
+//   margin-right: 20px;
+//   border-radius: 50%;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-position: center;
+//   background-color: #6b0f0f;
+//   overflow: hidden;
+
+//   img {
+//     width: 5vw;
+//   }
+
+//   .infoUserProfile{
+//     background-color: aqua !important;
+//     width: 100%;
+//     height: 100%;
+//   }
+//   // img {
+//   //   height: 120px;
+//   //   display: block;
+//   //   margin: 0 auto;
+//   // }
+// }
+// .dx-toast-content {
+//   min-width: 300px;
+//   max-width: 400px;
+// }
+
+// .nombrePerfil{
+//   color:rgb(33, 31, 31) !important;
+//   font-weight:bold;
+//   font-size: 2.5vh;
+//   padding: 0px;
+//   // margin-top: -25px;
+// }
+
+// .emailperfil{
+//   color:rgb(109, 105, 105) !important;
+//   font-size: 1.5vh;
+//   // margin-top: -5px;
+// }
+
+// .cedulaperfil{
+//   color:rgb(119, 115, 115) !important;
+//   font-size: 12px;
+// }
+
+.bntGuardarProfile{
+  // background-color: brown;
+  width: 100%;
+  margin-top: 2vh !important;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btnEditarPerfil{
+  background: #ed8f1c!important;
+  border-color: #f29017;
+  font-weight: bold !important;
+  width: 8vw !important;
+  height: 6vh !important;
+  color: rgb(251, 250, 248) !important;
+  border-radius: 50px !important;
+  // margin-top: -140px;
+}
+
+// .items{
+//   background-color: #6b0f0f !important;
+//   width: 20px !important;
+//   height: 50% !important;
+// }
+
+// .imgperfil{
+//   width: 100%;
+//   height: 20vh;
+//   margin: 2vh 0 0 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// .formularioPerfil{
+//   padding: 5vh 10vw !important;
+//   // margin-top: -100px;
+// }
+
+// .Boton{
+//   height: 5vh;
+// }
+
+.containerProfile{
+  width: 100%;
+  height: 100%;
+  padding: 2vh;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputsProfile{
+  width: 68%;
+  height: 100%;
+  padding: 3vh;
+  background-color: rgba(238, 238, 238, 0.521);
+  border-radius: 2vh;
+}
+
+.photoProfile{
+  width: 30%;
+  height: 100%;
+  // background-color: darkcyan;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photoContainer{
+  width: 100%;
+  height: 40%;
+  background-color: #f29017;
+  border-top-left-radius: 2vh;
+  border-top-right-radius: 2vh;
+}
+
+.photoUserProfile{
+  width: 35%;
+  height: 30%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20vh;
+  margin: -12vh 0 0 0;
+
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.nombreUser{
+  width: 100%;
+  height: 10%;
+  // background-color: chartreuse;
+  padding: 5vh 2vh 2vh 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p{
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vh;
+    font-weight: bolder;
+  }
+}
+
+.emailUser{
+  width: 100%;
+  height: 5%;
+  // background-color: chartreuse;
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p{
+    margin: 0;
+    padding: 0;
+    font-size: 2vh;
+    font-weight: 500;
+  }
+}
+
+.perfilUser{
+  width: 100%;
+  height: 5%;
+  // background-color: chartreuse;
+  padding: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  p{
+    margin: 0;
+    padding: 0;
+    font-size: 2vh;
+    font-weight: 400;
+  }
+}
+
+.userInfo{
+  width: 100%;
+  height: 68%;
+  background-color: rgba(238, 238, 238, 0.521);
+  border-radius: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.updatePicture{
+  width: 100%;
+  height: 20%;
+  background-color: rgba(238, 238, 238, 0.521);
+  border-radius: 2vh;
+  padding: 3vh;
+  display: flex;
+  align-items: center;
+  // justify-content: space-evenly;
+}
+
+.picture{
+  width: 25%;
+  height: 100%;
+  background-color: blueviolet;
+  border-radius: 2vh;
+}
+
+.selectPicture{
+  width: 50%;
+  margin: 0 0 0 2vh;
+}
+
+.selectPicture > .label{
+  font-weight: 700;
+  border: 0.2vh solid rgb(201, 201, 201);
+  padding: 1vh 1vw;
+  font-size: 1.6vh;
+  border-radius: 2vh;
+  text-align: center;
+  // cursor: pointer;
+
+  span{
+    color:#b8b8b8;
+    font-weight: 500;
+  }
+
+  label{
+    cursor: pointer;
+  }
+}
+
+.selectPicture input[type="file"]{
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}

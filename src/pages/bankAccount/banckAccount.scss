@@ -1,0 +1,100 @@
+
+.tituloCuentasBancarias{
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.TituloBeneficiario{
+  font-weight: bold!important;
+  color: rgb(69, 66, 66)!important;
+  font-size: 12px!important;
+
+}
+
+
+
+.BeneficiarioBanco{
+  border-radius:10px!important;
+  margin-bottom: 20px;
+  background-color: #e8e5e1 !important;
+  width: 80%;
+
+}
+
+.inputCuentasBanco{
+  border-radius:10px!important;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 50px;
+
+}
+.selectBancos{
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 50px;
+  align-items: center !important;
+
+}
+
+.Checks{
+  flex: auto;
+
+}
+.btnBancoAgregar{
+  background: #f29017!important;
+  border-color: #f29017;
+  font-weight: bold !important;
+  width: 120px !important;
+  height: 40px!important;
+  margin-left: 700px !important;
+  text-align: center !important;
+  color: rgb(251, 250, 248) !important;
+  border-radius: 10px !important;
+  bottom: 60px !important;
+
+}
+
+.btnBancoEditarAceptar{
+  font-weight: bold !important;
+  width: 120px !important;
+  height: 40px!important;
+  margin-left: 700px !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  bottom: 60px !important;
+
+}
+
+.btnBancoEditarEliminar{
+  font-weight: bold !important;
+  width: 120px !important;
+  height: 40px!important;
+  margin-left: 700px !important;
+  text-align: center !important;
+  border-radius: 10px !important;
+  bottom: 60px !important;
+
+}
+
+.btnBanco{
+  background: #f29017!important;
+  border-color: #f29017;
+  font-weight: bold !important;
+  width: 120px !important;
+  height: 40px!important;
+  margin-left: 900px !important;
+  text-align: center !important;
+  color: rgb(251, 250, 248) !important;
+  border-radius: 10px !important;
+  bottom: 60px !important;
+ 
+
+}
+.edi{
+  margin-right: 10px;
+ 
+
+}

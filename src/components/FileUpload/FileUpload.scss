@@ -1,0 +1,49 @@
+// .fotoPerfil{
+//     width: 100px;
+//     height: 150px;
+//     border-radius: 100px;
+//   }
+  .file-select {
+    position: relative;
+    display: inline-block;
+    font-size: 12px;
+        cursor: pointer;
+  }
+  
+  .file-select::before {
+    background-image:url("../../../public/iconos/Camera-bg.svg");
+    display: flex;
+    width: 150px;
+    margin-top: -5px;
+    margin-left: -40px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  .file-select{
+    cursor: pointer;
+  }
+
+  .file-select input[type="file"] {
+    opacity: 0;
+    width: 250px;
+    height:2vh;
+    display: inline-block;
+      cursor: pointer;
+  }
+  
+  #src-file1::before {
+    font-family: 'Glyphicons Halflings';
+    font-size: 26px;
+    content: '\F4CA';
+    cursor: pointer;
+  }
+
+  // .IconoSubirFotos{
+  //   background-image:url("../../../public/iconos/Camera-bg.svg");
+  //   width: 40px;
+  //   height: 50px;
+  //   border-radius: 50%;
+  //   background-repeat: no-repeat;
+  //   background-color: black;
+ 
+  // }

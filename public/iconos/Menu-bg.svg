@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="41" viewBox="0 0 44 41">
+  <g id="Menu-bg" transform="translate(0.451 -0.437)">
+    <g id="Grupo_781" data-name="Grupo 781">
+      <g id="Rectángulo_433" data-name="Rectángulo 433" transform="translate(-0.451 0.437)" fill="#fff" stroke="#e1e1e1" stroke-width="0.5">
+        <rect width="44" height="41" rx="15" stroke="none"/>
+        <rect x="0.25" y="0.25" width="43.5" height="40.5" rx="14.75" fill="none"/>
+      </g>
+    </g>
+    <path id="XMLID_101_" d="M23.282,13.41H8.955a1.455,1.455,0,1,1,0-2.91H23.282a1.455,1.455,0,1,1,0,2.91Zm1.455,5.037a1.452,1.452,0,0,0-1.455-1.455H8.955a1.455,1.455,0,1,0,0,2.91H23.282A1.452,1.452,0,0,0,24.737,18.447Zm0,6.492a1.452,1.452,0,0,0-1.455-1.455H8.955a1.455,1.455,0,1,0,0,2.91H23.282A1.452,1.452,0,0,0,24.737,24.939Z" transform="translate(5.843 2.271)" fill="#707070" opacity="0.76"/>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+@import "../../themes/generated/variables.base.scss";
+@import "../../dx-styles.scss";
+
+.header-component {
+  flex: 0 0 auto;
+  // z-index: 1;
+  width: 100%;
+  // margin-left: -12%;
+  .dx-toolbar .dx-toolbar-item.menu-button>.dx-toolbar-item-content .dx-icon {
+    color: $base-accent;
+  }
+}
+
+.dx-toolbar.header-toolbar .dx-toolbar-items-container .dx-toolbar-after {
+  padding: 0 40px;
+  width: 25vw;
+
+  .screen-x-small & {
+    padding: 0 20px;
+  }
+}
+
+.dx-toolbar .dx-toolbar-item.dx-toolbar-button.menu-button {
+  width: $side-panel-min-width;
+  text-align: center;
+  padding: 0;
+  
+}
+
+.header-title .dx-item-content {
+  padding: 0;
+  margin: 0;
+}
+
+.dx-theme-generic {
+  .dx-toolbar {
+    padding: 10px 0;
+  }
+
+  .user-button>.dx-button-content {
+    padding: 1px;
+    
+  }
+}
+
+.iconoNotificacionHeader{
+  margin-right: 20px;
+}
+
+.iconoMensajeHeader{
+  margin-right: 20px;
+}
+
+.buscadorHeader{
+  margin-top: 0px !important;
+  padding: auto;
+  margin-right: 650px;
+  align-items: center;
+}
+
+.user-info-container{
+  display: flex;
+  width: 62%;
+  // background-color: aqua;
+  align-items: center;
+  justify-content: flex-end;
+
+  p{
+    margin: 0;
+    padding: 0;
+    margin-right: 2vh;
+    font-size: 1.7vh;
+    font-weight: 500;
+    color: #626567;
+  }
+}
+
